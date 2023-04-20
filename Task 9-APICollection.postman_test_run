@@ -1,0 +1,206 @@
+{
+	"id": "ddf41660-cec2-4330-8c25-e4ac0a5ed7c3",
+	"name": "APICollection",
+	"timestamp": "2023-04-20T23:09:05.894Z",
+	"collection_id": "26661134-d3d30b5b-086c-42f4-8725-b1116ca0dbe8",
+	"folder_id": 0,
+	"environment_id": "26661134-6c4d6b95-e781-4cfc-a8f9-3d2a5d36f122",
+	"totalPass": 16,
+	"delay": "250",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-20T23:08:58.667Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7c0dac9c-3548-4ad1-8591-8ecb4373a7fe",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 220,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"Confirm that links 4 is equal to rel: health": true,
+				"Confirm that the paymentCurrency is EUR": true,
+				"Confirm that the categories are 5": true,
+				"Confirm that apiVersion is 6.3.8.0": true,
+				"Confirm that in links 2 rel is equal to: documentation": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Confirm that links 4 is equal to rel: health": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Confirm that the paymentCurrency is EUR": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Confirm that the categories are 5": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Confirm that apiVersion is 6.3.8.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that in links 2 rel is equal to: documentation": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				284,
+				220
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"Confirm that links 4 is equal to rel: health": true,
+					"Confirm that the paymentCurrency is EUR": true,
+					"Confirm that the categories are 5": true,
+					"Confirm that apiVersion is 6.3.8.0": true,
+					"Confirm that in links 2 rel is equal to: documentation": true
+				},
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"Confirm that links 4 is equal to rel: health": true,
+					"Confirm that the paymentCurrency is EUR": true,
+					"Confirm that the categories are 5": true,
+					"Confirm that apiVersion is 6.3.8.0": true,
+					"Confirm that in links 2 rel is equal to: documentation": true
+				}
+			]
+		},
+		{
+			"id": "b1b4c757-a80f-4130-8ec6-2e8a6c5ee263",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 247,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				173,
+				247
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "e9f8f9b7-0787-403d-b4de-f247015b1eb4",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 238,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				460,
+				238
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "9a79af6c-0d40-4de9-b6ce-ee84d9bfdf67",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 197,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				624,
+				197
+			],
+			"allTests": [
+				{},
+				{}
+			]
+		},
+		{
+			"id": "06293cf7-4d0a-482d-812f-28dd91c1b8c5",
+			"name": "Get Books - valid book",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				501,
+				151
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 3095,
+	"collection": {
+		"requests": [
+			{
+				"id": "7c0dac9c-3548-4ad1-8591-8ecb4373a7fe",
+				"method": "GET"
+			},
+			{
+				"id": "b1b4c757-a80f-4130-8ec6-2e8a6c5ee263",
+				"method": "GET"
+			},
+			{
+				"id": "e9f8f9b7-0787-403d-b4de-f247015b1eb4",
+				"method": "GET"
+			},
+			{
+				"id": "9a79af6c-0d40-4de9-b6ce-ee84d9bfdf67",
+				"method": "GET"
+			},
+			{
+				"id": "06293cf7-4d0a-482d-812f-28dd91c1b8c5",
+				"method": "GET"
+			}
+		]
+	}
+}
