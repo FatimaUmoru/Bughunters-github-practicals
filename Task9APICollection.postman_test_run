@@ -1,7 +1,7 @@
 {
-	"id": "3de945f0-6b25-43a1-9375-661400b2c3f7",
+	"id": "30c14120-87b3-427f-a1de-d1c23b15bc59",
 	"name": "APICollection",
-	"timestamp": "2023-04-21T00:01:04.671Z",
+	"timestamp": "2023-04-23T12:17:07.652Z",
 	"collection_id": "26661134-d3d30b5b-086c-42f4-8725-b1116ca0dbe8",
 	"folder_id": 0,
 	"environment_id": "26661134-6c4d6b95-e781-4cfc-a8f9-3d2a5d36f122",
@@ -9,14 +9,14 @@
 	"delay": "250",
 	"persist": true,
 	"status": "error",
-	"startedAt": "2023-04-21T00:00:57.006Z",
+	"startedAt": "2023-04-23T12:17:01.479Z",
 	"totalFail": 0,
 	"results": [
 		{
 			"id": "7c0dac9c-3548-4ad1-8591-8ecb4373a7fe",
 			"name": "Get All Todo Entries",
 			"url": "https://demo.fusio-project.org/index.php",
-			"time": 315,
+			"time": 727,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -61,7 +61,7 @@
 				}
 			},
 			"times": [
-				315
+				727
 			],
 			"allTests": [
 				{
@@ -79,7 +79,7 @@
 			"id": "b1b4c757-a80f-4130-8ec6-2e8a6c5ee263",
 			"name": "Get All Entries",
 			"url": "https://demo.fusio-project.org/index.php",
-			"time": 341,
+			"time": 266,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -87,7 +87,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				341
+				266
 			],
 			"allTests": [
 				{}
@@ -97,7 +97,7 @@
 			"id": "e9f8f9b7-0787-403d-b4de-f247015b1eb4",
 			"name": "Get entry per ID - Valid ID",
 			"url": "https://demo.fusio-project.org/index.php",
-			"time": 413,
+			"time": 245,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -105,7 +105,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				413
+				245
 			],
 			"allTests": [
 				{}
@@ -115,7 +115,7 @@
 			"id": "9a79af6c-0d40-4de9-b6ce-ee84d9bfdf67",
 			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
 			"url": "https://demo.fusio-project.org/index.php",
-			"time": 609,
+			"time": 278,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -123,7 +123,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				609
+				278
 			],
 			"allTests": [
 				{}
@@ -133,7 +133,7 @@
 			"id": "06293cf7-4d0a-482d-812f-28dd91c1b8c5",
 			"name": "Get Books - valid book",
 			"url": "https://simple-books-api.glitch.me/books",
-			"time": 211,
+			"time": 801,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -148,7 +148,7 @@
 				}
 			},
 			"times": [
-				211
+				801
 			],
 			"allTests": [
 				{
@@ -160,7 +160,7 @@
 			"id": "80811a95-ca37-4171-ab00-d11ba6ae4c50",
 			"name": "Get Books - invalid book type",
 			"url": "https://simple-books-api.glitch.me/books",
-			"time": 145,
+			"time": 224,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -168,7 +168,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				145
+				224
 			],
 			"allTests": [
 				{}
@@ -178,7 +178,7 @@
 			"id": "1b9e1da1-3490-4d31-805d-7d1dd415e902",
 			"name": "Place a book order - using valid book ID",
 			"url": "https://simple-books-api.glitch.me",
-			"time": 139,
+			"time": 165,
 			"responseCode": {
 				"code": 404,
 				"name": "Not Found"
@@ -186,7 +186,7 @@
 			"tests": {},
 			"testPassFailCounts": {},
 			"times": [
-				139
+				165
 			],
 			"allTests": [
 				{}
@@ -194,7 +194,7 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 2173,
+	"totalTime": 2706,
 	"collection": {
 		"requests": [
 			{
