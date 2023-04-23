@@ -1,22 +1,22 @@
 {
-	"id": "30c14120-87b3-427f-a1de-d1c23b15bc59",
+	"id": "dbb63d55-e3c1-471f-b7ff-097be51e0d5e",
 	"name": "APICollection",
-	"timestamp": "2023-04-23T12:17:07.652Z",
+	"timestamp": "2023-04-23T13:09:58.241Z",
 	"collection_id": "26661134-d3d30b5b-086c-42f4-8725-b1116ca0dbe8",
-	"folder_id": 0,
+	"folder_id": "26661134-65722092-d6e4-4087-b4a5-2c23ee1c2994",
 	"environment_id": "26661134-6c4d6b95-e781-4cfc-a8f9-3d2a5d36f122",
-	"totalPass": 8,
+	"totalPass": 14,
 	"delay": "250",
 	"persist": true,
-	"status": "error",
-	"startedAt": "2023-04-23T12:17:01.479Z",
+	"status": "finished",
+	"startedAt": "2023-04-23T13:09:56.398Z",
 	"totalFail": 0,
 	"results": [
 		{
 			"id": "7c0dac9c-3548-4ad1-8591-8ecb4373a7fe",
 			"name": "Get All Todo Entries",
 			"url": "https://demo.fusio-project.org/index.php",
-			"time": 727,
+			"time": 249,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -32,23 +32,23 @@
 			},
 			"testPassFailCounts": {
 				"Status code should be 200": {
-					"pass": 1,
+					"pass": 2,
 					"fail": 0
 				},
 				"Status code name should have an OK string": {
-					"pass": 1,
+					"pass": 2,
 					"fail": 0
 				},
 				"Confirm that links 4 is equal to rel: health": {
-					"pass": 1,
+					"pass": 2,
 					"fail": 0
 				},
 				"Confirm that the paymentCurrency is EUR": {
-					"pass": 1,
+					"pass": 2,
 					"fail": 0
 				},
 				"Confirm that the categories are 5": {
-					"pass": 1,
+					"pass": 2,
 					"fail": 0
 				},
 				"Confirm that apiVersion is 6.3.8.0": {
@@ -56,12 +56,13 @@
 					"fail": 0
 				},
 				"Confirm that in links 2 rel is equal to: documentation": {
-					"pass": 1,
+					"pass": 2,
 					"fail": 0
 				}
 			},
 			"times": [
-				727
+				474,
+				249
 			],
 			"allTests": [
 				{
@@ -72,158 +73,26 @@
 					"Confirm that the categories are 5": true,
 					"Confirm that apiVersion is 6.3.8.0": true,
 					"Confirm that in links 2 rel is equal to: documentation": true
-				}
-			]
-		},
-		{
-			"id": "b1b4c757-a80f-4130-8ec6-2e8a6c5ee263",
-			"name": "Get All Entries",
-			"url": "https://demo.fusio-project.org/index.php",
-			"time": 266,
-			"responseCode": {
-				"code": 200,
-				"name": "OK"
-			},
-			"tests": {},
-			"testPassFailCounts": {},
-			"times": [
-				266
-			],
-			"allTests": [
-				{}
-			]
-		},
-		{
-			"id": "e9f8f9b7-0787-403d-b4de-f247015b1eb4",
-			"name": "Get entry per ID - Valid ID",
-			"url": "https://demo.fusio-project.org/index.php",
-			"time": 245,
-			"responseCode": {
-				"code": 200,
-				"name": "OK"
-			},
-			"tests": {},
-			"testPassFailCounts": {},
-			"times": [
-				245
-			],
-			"allTests": [
-				{}
-			]
-		},
-		{
-			"id": "9a79af6c-0d40-4de9-b6ce-ee84d9bfdf67",
-			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
-			"url": "https://demo.fusio-project.org/index.php",
-			"time": 278,
-			"responseCode": {
-				"code": 200,
-				"name": "OK"
-			},
-			"tests": {},
-			"testPassFailCounts": {},
-			"times": [
-				278
-			],
-			"allTests": [
-				{}
-			]
-		},
-		{
-			"id": "06293cf7-4d0a-482d-812f-28dd91c1b8c5",
-			"name": "Get Books - valid book",
-			"url": "https://simple-books-api.glitch.me/books",
-			"time": 801,
-			"responseCode": {
-				"code": 200,
-				"name": "OK"
-			},
-			"tests": {
-				"Status code is 200": true
-			},
-			"testPassFailCounts": {
-				"Status code is 200": {
-					"pass": 1,
-					"fail": 0
-				}
-			},
-			"times": [
-				801
-			],
-			"allTests": [
+				},
 				{
-					"Status code is 200": true
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"Confirm that links 4 is equal to rel: health": true,
+					"Confirm that the paymentCurrency is EUR": true,
+					"Confirm that the categories are 5": true,
+					"Confirm that apiVersion is 6.3.8.0": true,
+					"Confirm that in links 2 rel is equal to: documentation": true
 				}
-			]
-		},
-		{
-			"id": "80811a95-ca37-4171-ab00-d11ba6ae4c50",
-			"name": "Get Books - invalid book type",
-			"url": "https://simple-books-api.glitch.me/books",
-			"time": 224,
-			"responseCode": {
-				"code": 200,
-				"name": "OK"
-			},
-			"tests": {},
-			"testPassFailCounts": {},
-			"times": [
-				224
-			],
-			"allTests": [
-				{}
-			]
-		},
-		{
-			"id": "1b9e1da1-3490-4d31-805d-7d1dd415e902",
-			"name": "Place a book order - using valid book ID",
-			"url": "https://simple-books-api.glitch.me",
-			"time": 165,
-			"responseCode": {
-				"code": 404,
-				"name": "Not Found"
-			},
-			"tests": {},
-			"testPassFailCounts": {},
-			"times": [
-				165
-			],
-			"allTests": [
-				{}
 			]
 		}
 	],
-	"count": 1,
-	"totalTime": 2706,
+	"count": 2,
+	"totalTime": 723,
 	"collection": {
 		"requests": [
 			{
 				"id": "7c0dac9c-3548-4ad1-8591-8ecb4373a7fe",
 				"method": "GET"
-			},
-			{
-				"id": "b1b4c757-a80f-4130-8ec6-2e8a6c5ee263",
-				"method": "GET"
-			},
-			{
-				"id": "e9f8f9b7-0787-403d-b4de-f247015b1eb4",
-				"method": "GET"
-			},
-			{
-				"id": "9a79af6c-0d40-4de9-b6ce-ee84d9bfdf67",
-				"method": "GET"
-			},
-			{
-				"id": "06293cf7-4d0a-482d-812f-28dd91c1b8c5",
-				"method": "GET"
-			},
-			{
-				"id": "80811a95-ca37-4171-ab00-d11ba6ae4c50",
-				"method": "GET"
-			},
-			{
-				"id": "1b9e1da1-3490-4d31-805d-7d1dd415e902",
-				"method": "POST"
 			}
 		]
 	}
